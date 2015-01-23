@@ -22,7 +22,9 @@
     "url": "https://github.com/matiassingers/provisioning/issues"
   },
   "homepage": "https://github.com/matiassingers/provisioning",
-  "dependencies": {},
+  "dependencies": {
+    "simple-plist": "0.0.4"
+  },
   "devDependencies": {
     "mocha": "2.1.0"
   }
