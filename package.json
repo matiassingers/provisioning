@@ -9,8 +9,12 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "bin": {
+    "provisioning": "cli.js"
+  },
   "files": [
-    "index.js"
+    "index.js",
+    "cli.js"
   ],
   "repository": {
     "type": "git",
