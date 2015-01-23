@@ -10,7 +10,9 @@
     "node": ">=0.10.0"
   },
   "bin": {
-    "provisioning": "cli.js"
+    "provisioning": "cli.js",
+    "mobileprovision": "cli.js",
+    "provisionprofile": "cli.js"
   },
   "files": [
     "index.js",
