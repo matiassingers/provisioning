@@ -1,0 +1,29 @@
+{
+  "name": "provisioning",
+  "version": "0.1.0",
+  "description": "parse .mobileprovision(iOS) and .provisionprofile(OS X) files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matiassingers/provisioning"
+  },
+  "author": "Matias Singers <mail@matiassingers.com> (http://mts.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiassingers/provisioning/issues"
+  },
+  "homepage": "https://github.com/matiassingers/provisioning",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "2.1.0"
+  }
+}
