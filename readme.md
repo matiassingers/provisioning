@@ -41,8 +41,14 @@ $ provisioning --help
     => { "AppIDName": "com.facebook.facebook",
          "TeamName": "Facebook Inc.",
          ... }
-    
 ```
+
+
+## Related
+- [`grunt-xcode`](https://github.com/matiassingers/grunt-xcode)
+- [`apn-test`](https://github.com/matiassingers/apn-test)
+- [`ipa-metadata`](https://github.com/matiassingers/ipa-metadata)
+- [`entitlements`](https://github.com/matiassingers/entitlements)
 
 
 ## License
