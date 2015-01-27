@@ -1,6 +1,6 @@
 {
   "name": "provisioning",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "parse .mobileprovision(iOS) and .provisionprofile(OS X) files",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,16 @@
     "url": "https://github.com/matiassingers/provisioning"
   },
   "author": "Matias Singers <mail@matiassingers.com> (http://mts.io)",
+  "keywords": [
+    "ipa",
+    "ios",
+    "mac",
+    "osx",
+    "provisioning profile",
+    "mobile provisioning",
+    "mobileprovision",
+    "provisionprofile"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/matiassingers/provisioning/issues"
