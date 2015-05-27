@@ -3,6 +3,8 @@
 
 Converts the provisioning profile raw plist data into JavaScript objects, arrays, etc.
 
+**Note:** this module currently only works on OS X because of [`security`], see [#3](https://github.com/matiassingers/ipa-metadata/pull/3).
+
 ## Install
 
 ```sh
@@ -54,3 +56,5 @@ $ provisioning --help
 ## License
 
 MIT © [Matias Singers](http://mts.io)
+
+[`security`]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/security.1.html
