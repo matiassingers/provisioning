@@ -1,6 +1,6 @@
 {
   "name": "provisioning",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "parse .mobileprovision(iOS) and .provisionprofile(OS X) files",
   "main": "index.js",
   "scripts": {
