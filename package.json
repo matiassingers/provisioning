@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/matiassingers/provisioning",
   "dependencies": {
+    "cert-downloader": "0.0.4",
     "simple-plist": "0.0.4"
   },
   "devDependencies": {

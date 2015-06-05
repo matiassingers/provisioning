@@ -5,13 +5,17 @@ var fs = require('fs');
 var plistFixture = fs.readFileSync('./fixtures/fixture.plist', { encoding: 'UTF-8' });
 
 var proxyquire =  require('proxyquire');
-var childProcessStub = {
-  exec: function(command, callback){
-    callback(null, plistFixture);
-  }
-};
 
-var provisioning = proxyquire('./', {'child_process': childProcessStub});
+var CertDownloaderStub = (function (options) {
+  function CertDownloader(options) {
+  }
+  CertDownloader.prototype.verify = function(file, callback) {
+    callback(null, plistFixture);
+  };
+  return CertDownloader;
+})();
+
+var provisioning = proxyquire('./', {'cert-downloader': CertDownloaderStub});
 
 describe('should call exec correctly and parse plist data', function(){
   it('return parsed data as object', function(done) {
